@@ -5,8 +5,8 @@ def oxford_comma(array)
   elsif array.length == 1
     return array[0]
   elsif array.length == 3
+    arr_2 = []
     array.each do |x|
-      arr_2 = []
       arr_2 << x + ","
     end
     arr_2[2] = "and " + array[2]
