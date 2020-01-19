@@ -10,7 +10,7 @@ def oxford_comma(array)
       arr_2 << x + ","
     end
     arr_2[2] = "and " + array[2]
-    return arr.join(" ")
+    return arr_2.join(" ")
   end
 
 end
